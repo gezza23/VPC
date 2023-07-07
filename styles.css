@@ -131,7 +131,7 @@ section {
 
 /*About section*/
 
-#section1 {
+#about {
     background-color: #ffffff;
     display: flex;
     align-items: center;
@@ -179,7 +179,7 @@ p {
 
 /*services section*/
 
-#section2 {
+#services {
     background-color: #d5e5ef;
     display: flex;
     flex-direction: column;
@@ -237,7 +237,7 @@ p {
 
 /*features section*/
 
-#section3 {
+#features {
     background-color: #ffffff;
 
 }
@@ -280,7 +280,7 @@ p {
 /*testimonial section*/
 
 
-#section4 {
+#testimonials {
     background-color: #1e1e49;
     color: #fff;
     align-items: center;
@@ -290,7 +290,7 @@ p {
     padding: 0;
 }
 
-#section4 h2 {
+#testimonials h2 {
     margin: 0;
     padding: 0;
     padding-bottom: 4.5rem;
@@ -341,12 +341,12 @@ p {
 
 /*Contact section*/
 
-#section5 {
+#contact {
     background-color: #ea9423;
     color: #fff;
 }
 
-#section5 h2 {
+#contact h2 {
     margin-bottom: 5.5rem;
 }
 
@@ -362,7 +362,7 @@ p {
     width: 50%;
 }
 
-#section5 img {
+#contact img {
     height: 100%;
     width: 90%;
     object-fit: cover;
@@ -495,7 +495,7 @@ span {
         border-radius: .5rem;
     }
 
-    #section2 {
+    #services {
         height: 98vh;
     }
 
@@ -503,7 +503,7 @@ span {
         height: 7rem;
     }
 
-    #section3 {
+    #features {
         background-color: #ffffff;
     }
 
@@ -679,7 +679,7 @@ span {
         border-radius: .5rem;
     }
 
-    #section2 {
+    #services {
         height: 119vh;
     }
 
@@ -687,11 +687,11 @@ span {
         height: 5.8rem;
     }
 
-    #section3 {
+    #features {
         background-color: #ffffff;
     }
 
-    #section3 h2 {
+    #features h2 {
         margin: .5rem;
 
     }
@@ -706,7 +706,7 @@ span {
         font-size: 3.8rem;
     }
 
-    #section4 h2 {
+    #testimonials h2 {
         margin: 0;
         padding: 0;
         padding-bottom: 4rem;
@@ -744,7 +744,7 @@ span {
         font-size: .7rem;
     }
     
-    #section5 img {
+    #contact img {
         height: 70%;
         width: 90%;
         object-fit: cover;
@@ -883,7 +883,7 @@ span {
         height: 1rem;
     }
 
-    #section2 {
+    #services {
         padding: 1.2rem;
         height: 68vh;
     }
@@ -897,7 +897,7 @@ span {
         width: 80%;
     }
 
-    #section3 {
+    #features {
         background-color: #ffffff;
     }
 
@@ -911,13 +911,13 @@ span {
         font-size: 3.2rem;
     }
 
-    #section4 h2 {
+    #testimonials h2 {
         margin: 0;
         padding: 0;
         padding-bottom: 2rem;
     }
 
-    #section3 h3 {
+    #features h3 {
         font-size: .68rem;
     }
 
@@ -962,11 +962,11 @@ span {
         font-size: .41rem;
     }
 
-    #section5 h2 {
+    #contact h2 {
         margin-bottom: 2.1rem;
     }
 
-    #section5 img {
+    #contact img {
         height: 70%;
         width: 90%;
         object-fit: cover;
@@ -1106,7 +1106,7 @@ span {
         height: 1rem;
     }
 
-    #section2 {
+    #services {
         padding: 1.2rem;
         height: 48vh;
     }
@@ -1120,7 +1120,7 @@ span {
         width: 80%;
     }
 
-    #section3 {
+    #features {
         background-color: #ffffff;
     }
 
@@ -1134,13 +1134,13 @@ span {
         font-size: 3.2rem;
     }
 
-    #section4 h2 {
+    #testimonials h2 {
         margin: 0;
         padding: 0;
         padding-bottom: 2rem;
     }
 
-    #section3 h3 {
+    #features h3 {
         font-size: .55rem;
         margin-top: .1rem;
 
@@ -1188,15 +1188,15 @@ span {
         font-size: .39rem;
     }
 
-    #section5 {
+    #contact {
         height: 40vh;
     }
 
-    #section5 h2 {
+    #contact h2 {
         margin-bottom: 2.1rem;
     }
 
-    #section5 img {
+    #contact img {
         height: 70%;
         width: 90%;
         object-fit: cover;
