@@ -388,6 +388,7 @@ label {
     font-size: inherit;
     text-align: left;
 }
+
 .aster {
     color: red;
 
@@ -665,6 +666,12 @@ span {
         margin: 1.5rem;
     }
 
+    p {
+        padding: 1rem;
+        font-size: .7rem;
+        line-height: 1.8;
+    }
+
     .header-img {
         height: 15rem;
         margin: 0;
@@ -736,7 +743,7 @@ span {
         display: flex;
         font-size: .7rem;
     }
-
+    
     #section5 img {
         height: 70%;
         width: 90%;
@@ -764,18 +771,14 @@ span {
         font-size: .8rem;
     }
 
-    p {
-        padding: 1rem;
-        font-size: .7rem;
-        line-height: 1.8;
-    }
+
 
     .footer-container p {
         font-size: .75rem;
     }
 }
 
-@media screen and (max-width: 752px) {
+@media screen and (min-width: 500px) and (max-width: 752px) {
     header {
         padding: 0;
         padding-top: 1rem;
@@ -857,6 +860,12 @@ span {
         margin: .4rem;
     }
 
+    p {
+        padding: .6rem;
+        font-size: .57rem;
+        line-height: 1.8;
+    }
+
     .header-img {
         height: 12.5rem;
         margin: 0;
@@ -865,8 +874,9 @@ span {
     }
 
     .about-container {
-        height: 85%;
+        height: 65%;
         padding: .5rem;
+        width: 65%;
     }
 
     .about-container img {
@@ -875,7 +885,7 @@ span {
 
     #section2 {
         padding: 1.2rem;
-        height: 80vh;
+        height: 68vh;
     }
 
     .col img {
@@ -983,14 +993,241 @@ span {
         font-size: .62rem;
     }
 
-    p {
-        padding: .6rem;
-        font-size: .57rem;
-        line-height: 1.8;
-    }
+
 
     .footer-container p {
         font-size: .55rem;
+        padding: .2rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        padding: 0;
+        padding-top: 1rem;
+    }
+
+    nav {
+        padding-right: 5rem;
+        display: flex;
+        justify-content: flex-end;
+        align-items: self-start;
+        height: 3.2rem;
+    }
+
+    .toggle {
+        display: flex;
+        fill: #9abb50;
+        height: 1.9rem;
+    }
+
+    .sect-nav {
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        display: none;
+        width: 50%;
+        margin: auto;
+        height: 100%;
+        padding: .85rem;
+
+    }
+
+    li {
+        padding: 1.25rem 0;
+    }
+
+    .nav-links li a {
+        padding: .2rem;
+        font-size: .62rem;
+    }
+
+    .nav-links li a:hover {
+        border-bottom: 1px solid #9abb50;
+    }
+
+    .sect-nav.on {
+        display: flex;
+    }
+
+    .header-contents {
+        padding: 2.25rem;
+    }
+
+    #logo {
+        height: 2.1rem;
+        margin: 0;
+        position: absolute;
+        right: 90%;
+    }
+
+    .header-heading {
+        padding: 0;
+        padding-top: 5rem;
+        width: 50%;
+    }
+
+    h1 {
+        margin-right: 20px;
+        font-size: 1.1rem;
+        color: #d5e5ef;
+    }
+
+    section {
+        padding: 1.1rem;
+        height: 40vh;
+    }
+
+    h2 {
+        font-size: .65rem;
+        margin: .4rem;
+    }
+
+    p {
+        padding: .2rem;
+        font-size: .45rem;
+        line-height: 1.8;
+    }
+
+    .header-img {
+        height: 8.5rem;
+        margin: 0;
+        width: 100%;
+        border-radius: .5rem;
+    }
+
+    .about-container {
+        height: 65%;
+        padding: .5rem;
+        width: 65%;
+    }
+
+    .about-container img {
+        height: 1rem;
+    }
+
+    #section2 {
+        padding: 1.2rem;
+        height: 48vh;
+    }
+
+    .col img {
+        height: 3rem;
+    }
+
+    .grid-container {
+        gap: 5px;
+        width: 80%;
+    }
+
+    #section3 {
+        background-color: #ffffff;
+    }
+
+    .item {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 1rem;
+    }
+
+    .item svg {
+        font-size: 3.2rem;
+    }
+
+    #section4 h2 {
+        margin: 0;
+        padding: 0;
+        padding-bottom: 2rem;
+    }
+
+    #section3 h3 {
+        font-size: .55rem;
+        margin-top: .1rem;
+
+    }
+
+    .item {
+        padding: .5rem;
+        margin: 0;
+    }
+
+    .item p {
+        margin-top: .4rem;
+    }
+
+    .testimonial-card {
+        padding: 9px;
+        text-align: center;
+        width: 6.5rem;
+        height: 11.5rem;
+        margin: 0 .4rem;
+    }
+
+    .testimonial-card img {
+        border-radius: 50%;
+        height: 15px;
+        width: 15px;
+        margin-bottom: .2px;
+        object-fit: cover;
+    }
+
+    .testimonial-card h3 {
+        font-size: .35rem;
+        margin-top: .1rem;
+    }
+
+    .testimonial-card p {
+        color: black;
+        text-align: justify;
+        font-size: .42rem;
+    }
+
+    .test-span {
+        color: #ea9423;
+        display: flex;
+        font-size: .39rem;
+    }
+
+    #section5 {
+        height: 40vh;
+    }
+
+    #section5 h2 {
+        margin-bottom: 2.1rem;
+    }
+
+    #section5 img {
+        height: 70%;
+        width: 90%;
+        object-fit: cover;
+        border-radius: 1rem;
+    }
+
+    .contact-items {
+        height: 15rem;
+        width: 100%;
+    }
+
+    form {
+        font-size: .35rem;
+        height: 60%;
+    }
+
+    button {
+        margin: 1rem;
+        height: .85rem;
+        font-size: .35rem;
+        width: 1.8rem;
+    }
+
+    span {
+        font-size: .42rem;
+    }
+
+
+
+    .footer-container p {
+        font-size: .35rem;
         padding: .2rem;
     }
 }
