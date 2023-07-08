@@ -239,6 +239,7 @@ p {
 
 #features {
     background-color: #ffffff;
+    align-items: center;
 
 }
 
@@ -251,6 +252,8 @@ p {
     display: flex;
     flex-direction: column;
     padding: 0;
+    width: 100%;
+
 }
 
 .item:hover svg {
@@ -1165,8 +1168,8 @@ span {
 
     .testimonial-card img {
         border-radius: 50%;
-        height: 15px;
-        width: 15px;
+        height: 25px;
+        width: 25px;
         margin-bottom: .2px;
         object-fit: cover;
     }
