@@ -246,6 +246,7 @@ p {
 .feature-items {
     display: flex;
     flex-direction: row;
+    padding-top: 2.1rem;
 }
 
 .item {
