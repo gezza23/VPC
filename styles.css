@@ -885,6 +885,7 @@ span {
 
     .about-container img {
         height: 1rem;
+        animation: bob 1.75s ease-in-out infinite;
     }
 
     #services {
@@ -1105,9 +1106,10 @@ span {
         padding: .5rem;
         width: 65%;
     }
-
+    
     .about-container img {
         height: .65rem;
+        animation: bob 1.5s ease-in-out infinite;
     }
 
     #services {
